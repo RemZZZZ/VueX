@@ -98,7 +98,9 @@ vuex官方API还提供了一个actions，这个actions也是个对象变量，�
     export default store
     
 全局给user赋值
+
     this.$store.dispatch('setUser', value)
     
 全局获取
+
     this.$store.getters.getUser
